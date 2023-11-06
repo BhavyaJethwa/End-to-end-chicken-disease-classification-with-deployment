@@ -28,7 +28,6 @@ stages:
     cmd: python src/Chicken_disease_classification/pipeline/stage_03_training.py
     deps:
       - src/Chicken_disease_classification/pipeline/stage_03_training.py
-      - src/Chicken_disease_classification/components/prepare_callbacks.py
       - config/config.yaml
       - artifacts/data_ingestion/Chicken-fecal-images
       - artifacts/prepare_base_model
